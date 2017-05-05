@@ -488,9 +488,9 @@
 			<div class="music-shadow">
 				<div class="music-play-panel">
 					<div class="music-btns">
-						<a href="#" title="上一首"><i class="fa fa-step-backward"></i></a>
-						<a href="#" title="播放/暂停" style="height: 36px;width: 36px;"><i style="font-size: 36px;" class="fa fa-play-circle-o"></i></a>
-						<a href="#" title="下一首"><i class="fa fa-step-forward"></i></a>
+						<a class="p-prev" href="javascript:;" title="上一首"><i class="fa fa-step-backward"></i></a>
+						<a class="p-play" href="javascript:;" title="播放/暂停" style="height: 36px;width: 36px;"><i style="font-size: 36px;" class="fa fa-play-circle-o"></i></a>
+						<a class="p-next" href="javascript:;" title="下一首"><i class="fa fa-step-forward"></i></a>
 					</div>
 					<div class="music-photo">
 						<a href=""><img src="../style/img/music-photo.jpg" title="Save Rock And Roll" /></a>
@@ -513,8 +513,9 @@
 								</div>
 							</div>
 							<span class="time">
-								<em>01:12</em>
-								/ 04:41
+								<em class="p-current">01:12</em>
+								/
+								<em class="p-total">04:41</em>
 							</span>
 						</div>
 					</div>
@@ -537,7 +538,13 @@
 				</div>
 			</div>
 		</div>
-	
+		<audio controls="controls" style="z-index: 10000;position: absolute;">
+			<source src="../music/Fall Out Boy - Alone Together.mp3" type="audio/mp3"></source>
+			<source src="../music/Fall Out Boy - Death Valley.mp3" type="audio/mp3"></source>
+			<source src="../music/Fall Out Boy - My Songs Know What You Did In The Dark (Light Em Up).mp3" type="audio/mp3"></source>
+			<source src="../music/Fall Out Boy Elton John - Save Rock And Roll.mp3" type="audio/mp3"></source>
+			<source src="../music/Fall Out Boy Courtney Love - Rat A Tat.mp3" type="audio/mp3"></source>
+		</audio>
 		<!--
         	作者：767475042@qq.com
         	时间：2017-05-04
