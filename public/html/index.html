@@ -179,7 +179,7 @@
         	时间：2017-05-04
         	描述：核心区域
         -->
-		<div class="netease-subnav" style="margin-top: 34px;">
+		<div class="netease-subnav main-bg" style="margin-top: 34px;">
 			<!--
             	作者：767475042@qq.com
             	时间：2017-05-04
@@ -625,12 +625,16 @@
 		/**
 		 * 控制轮播图向前向后按钮的宽度
 		 */
-		var $a_h = ($(document).width() - 980 ) / 2;
-		$(".carousel-control").css('width',$a_h);
-		
+		var $a_w = ($(document).width() - 980 ) / 2;
+		$(".carousel-control").css('width',$a_w);
+		var $a_h = ($(window).height() - 340) / 2;
+		$(".modal-dialog").css('margin',$a_h+'px auto');
 		$(window).resize(function(){
-			var $a_h = ($(document).width() - 980 ) / 2;
-			$(".carousel-control").css('width',$a_h);
+			var $a_w = ($(document).width() - 980 ) / 2;
+			$(".carousel-control").css('width',$a_w);
+			var $a_h = ($(window).height() - 340) / 2;
+
+$(".modal-dialog").css('margin',$a_h+'px auto');
 		});
 		
 		

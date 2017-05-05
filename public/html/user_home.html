@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>网易云音乐</title>
+		<link rel="stylesheet" href="../style/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="../style/css/bootstrap-reset.css" />
+		<link rel="stylesheet" href="../style/font-awesome/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="../style/css/index.css" />
+		<link rel="stylesheet" href="../style/css/user_home.css"/>
+		
+		<script type="text/javascript" src="../lib/jquery.min.js" ></script>
+		<script type="text/javascript" src="../lib/bootstrap.min.js" ></script>
+	</head>
+	<body>
+		<div class="main-bg">
+			<div class="main-wrap">
+				<!--
+                	作者：767475042@qq.com
+                	时间：2017-05-05
+                	描述：用户信息
+                -->
+				<div class="home-inf">
+					<div class="home-photo"><img src="../style/img/user_home_1.jpg" alt="" /></div>
+					<div class="home-dec">
+						<h4>
+							<span class="tit">官云杰</span>
+							<button class="tit-btn" type="button">
+								<i class="fa fa-envelope-o"></i>发私信
+							</button>
+							<button class="tit-btn" type="button">
+								<i class="fa fa-check"></i>已关注
+							</button>
+							<button class="tit-btn" type="button">
+								<i class="fa fa-exchange"></i>相互关注
+							</button>
+							<button class="tit-btn btn-gz" type="button">
+								<i class="fa fa-plus"></i>关&nbsp;&nbsp;注
+							</button>
+						</h4>
+						<ul class="dny list-inline list-unstyled">
+							<li>
+								<strong>231</strong>
+								<span>动态</span>
+							</li>
+							<li>
+								<strong>1453</strong>
+								<span>关注</span>
+							</li>
+							<li>
+								<strong>231万</strong>
+								<span>粉丝</span>
+							</li>
+						</ul>
+						<p>个人介绍：<span>沉迷电音不可自拔</span></p>
+						<p>所在地区：<span>湖北省-武汉市</span>年龄：<span>90后</span></p>
+					</div>
+				</div>
+				<!--
+                	作者：767475042@qq.com
+                	时间：2017-05-05
+                	描述：听歌排行标题
+                -->
+				<div class="m-record-title">
+					<h3><span>听歌排行</span></h3>
+					<h4>累计听歌<em>1024</em>首</h4>
+					<button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="实际播放时间过短的歌曲将不纳入计算。">
+						<i class="fa fa-info-circle"></i>
+					</button>
+					
+					<div class="sub">
+						<span class="sub-on">最近一周</span>
+						<i>|</i>
+						<span>所有时间</span>
+					</div>
+				</div>
+				<!--
+                	作者：767475042@qq.com
+                	时间：2017-05-05
+                	描述：加载中
+                -->
+				<div class="record-loading">
+					<i data-toggle="tooltip" data-placement="top" title="Tooltip on top" class="fa fa-spinner fa-pulse"></i>
+				</div>	
+				<!--
+                	作者：767475042@qq.com
+                	时间：2017-05-05
+                	描述：听歌排行
+                -->
+                <div class="m-record">
+                	<ul class="list-unstyled">
+                		<li>
+                			<div class="hd">
+                				<span class="num">1.</span>
+                				<i class="fa fa-play-circle-o"></i>
+                			</div>
+                			<div class="song">
+                				<div class="tt">
+                					<a class="udline" href="#"><b>Save Rock And Roll</b></a>
+                					<em>-</em>
+                					<span>
+                						<a class="udline" href="#">Fall Out Boy</a>
+                						<em>/</em>
+                						<a class="udline" href="#">Elton John</a>
+                					</span>
+                				</div>
+                				<div class="opt">
+                					<a href="#"><i class="fa fa-plus"></i></a>
+                					<a href="#"><i class="fa fa-plus-square-o"></i></a>
+                					<a href="#"><i class="fa fa-share-square-o"></i></a>
+                					<a href="#"><i class="fa fa-download"></i></a>
+                				</div>
+                			</div>
+                			<div class="tops">
+                				<em>215次</em>
+                				<span class="tops-bg" style="width: 100%;"></span>
+                			</div>
+                		</li>
+                		<li class="even">
+                			<div class="hd">
+                				<span class="num">2.</span>
+                				<i class="fa fa-play-circle-o"></i>
+                			</div>
+                			<div class="song">
+                				<div class="tt">
+                					<a class="udline" href="#"><b>Save Rock And Roll</b></a>
+                					<em>-</em>
+                					<span>
+                						<a class="udline" href="#">Fall Out Boy</a>
+                						<em>/</em>
+                						<a class="udline" href="#">Elton John</a>
+                					</span>
+                				</div>
+                				<div class="opt">
+                					<a href="#"><i class="fa fa-plus"></i></a>
+                					<a href="#"><i class="fa fa-plus-square-o"></i></a>
+                					<a href="#"><i class="fa fa-share-square-o"></i></a>
+                					<a href="#"><i class="fa fa-download"></i></a>
+                				</div>
+                			</div>
+                			<div class="tops">
+                				<em>215次</em>
+                				<span class="tops-bg" style="width: 88%;"></span>
+                			</div>
+                		</li>
+                		<li>
+                			<div class="hd">
+                				<span class="num">3.</span>
+                				<i class="fa fa-play-circle-o"></i>
+                			</div>
+                			<div class="song">
+                				<div class="tt">
+                					<a class="udline" href="#"><b>Save Rock And Roll</b></a>
+                					<em>-</em>
+                					<span>
+                						<a class="udline" href="#">Fall Out Boy</a>
+                						<em>/</em>
+                						<a class="udline" href="#">Elton John</a>
+                					</span>
+                				</div>
+                				<div class="opt">
+                					<a href="#"><i class="fa fa-plus"></i></a>
+                					<a href="#"><i class="fa fa-plus-square-o"></i></a>
+                					<a href="#"><i class="fa fa-share-square-o"></i></a>
+                					<a href="#"><i class="fa fa-download"></i></a>
+                				</div>
+                			</div>
+                			<div class="tops">
+                				<em>215次</em>
+                				<span class="tops-bg" style="width:85%;"></span>
+                			</div>
+                		</li>
+                		<li class="even">
+                			<div class="hd">
+                				<span class="num">4.</span>
+                				<i class="fa fa-play-circle-o"></i>
+                			</div>
+                			<div class="song">
+                				<div class="tt">
+                					<a class="udline" href="#"><b>Save Rock And Roll</b></a>
+                					<em>-</em>
+                					<span>
+                						<a class="udline" href="#">Fall Out Boy</a>
+                						<em>/</em>
+                						<a class="udline" href="#">Elton John</a>
+                					</span>
+                				</div>
+                				<div class="opt">
+                					<a href="#"><i class="fa fa-plus"></i></a>
+                					<a href="#"><i class="fa fa-plus-square-o"></i></a>
+                					<a href="#"><i class="fa fa-share-square-o"></i></a>
+                					<a href="#"><i class="fa fa-download"></i></a>
+                				</div>
+                			</div>
+                			<div class="tops">
+                				<em>215次</em>
+                				<span class="tops-bg" style="width: 78%;"></span>
+                			</div>
+                		</li>
+                		<li>
+                			<div class="hd">
+                				<span class="num">5.</span>
+                				<i class="fa fa-play-circle-o"></i>
+                			</div>
+                			<div class="song">
+                				<div class="tt">
+                					<a class="udline" href="#"><b>Save Rock And Roll</b></a>
+                					<em>-</em>
+                					<span>
+                						<a class="udline" href="#">Fall Out Boy</a>
+                						<em>/</em>
+                						<a class="udline" href="#">Elton John</a>
+                					</span>
+                				</div>
+                				<div class="opt">
+                					<a href="#"><i class="fa fa-plus"></i></a>
+                					<a href="#"><i class="fa fa-plus-square-o"></i></a>
+                					<a href="#"><i class="fa fa-share-square-o"></i></a>
+                					<a href="#"><i class="fa fa-download"></i></a>
+                				</div>
+                			</div>
+                			<div class="tops">
+                				<em>215次</em>
+                				<span class="tops-bg" style="width: 69%;"></span>
+                			</div>
+                		</li>
+                		<li class="even">
+                			<div class="hd">
+                				<span class="num">6.</span>
+                				<i class="fa fa-play-circle-o"></i>
+                			</div>
+                			<div class="song">
+                				<div class="tt">
+                					<a class="udline" href="#"><b>Save Rock And Roll</b></a>
+                					<em>-</em>
+                					<span>
+                						<a class="udline" href="#">Fall Out Boy</a>
+                						<em>/</em>
+                						<a class="udline" href="#">Elton John</a>
+                					</span>
+                				</div>
+                				<div class="opt">
+                					<a href="#"><i class="fa fa-plus"></i></a>
+                					<a href="#"><i class="fa fa-plus-square-o"></i></a>
+                					<a href="#"><i class="fa fa-share-square-o"></i></a>
+                					<a href="#"><i class="fa fa-download"></i></a>
+                				</div>
+                			</div>
+                			<div class="tops">
+                				<em>215次</em>
+                				<span class="tops-bg" style="width: 67%;"></span>
+                			</div>
+                		</li>
+                		<li>
+                			<div class="hd">
+                				<span class="num">7.</span>
+                				<i class="fa fa-play-circle-o"></i>
+                			</div>
+                			<div class="song">
+                				<div class="tt">
+                					<a class="udline" href="#"><b>Save Rock And Roll</b></a>
+                					<em>-</em>
+                					<span>
+                						<a class="udline" href="#">Fall Out Boy</a>
+                						<em>/</em>
+                						<a class="udline" href="#">Elton John</a>
+                					</span>
+                				</div>
+                				<div class="opt">
+                					<a href="#"><i class="fa fa-plus"></i></a>
+                					<a href="#"><i class="fa fa-plus-square-o"></i></a>
+                					<a href="#"><i class="fa fa-share-square-o"></i></a>
+                					<a href="#"><i class="fa fa-download"></i></a>
+                				</div>
+                			</div>
+                			<div class="tops">
+                				<em>215次</em>
+                				<span class="tops-bg" style="width: 35%;"></span>
+                			</div>
+                		</li>
+                		<li class="even">
+                			<div class="hd">
+                				<span class="num">8.</span>
+                				<i class="fa fa-play-circle-o"></i>
+                			</div>
+                			<div class="song">
+                				<div class="tt">
+                					<a class="udline" href="#"><b>Save Rock And Roll</b></a>
+                					<em>-</em>
+                					<span>
+                						<a class="udline" href="#">Fall Out Boy</a>
+                						<em>/</em>
+                						<a class="udline" href="#">Elton John</a>
+                					</span>
+                				</div>
+                				<div class="opt">
+                					<a href="#"><i class="fa fa-plus"></i></a>
+                					<a href="#"><i class="fa fa-plus-square-o"></i></a>
+                					<a href="#"><i class="fa fa-share-square-o"></i></a>
+                					<a href="#"><i class="fa fa-download"></i></a>
+                				</div>
+                			</div>
+                			<div class="tops">
+                				<em>215次</em>
+                				<span class="tops-bg" style="width: 25%;"></span>
+                			</div>
+                		</li>
+                		<li>
+                			<div class="hd">
+                				<span class="num">9.</span>
+                				<i class="fa fa-play-circle-o"></i>
+                			</div>
+                			<div class="song">
+                				<div class="tt">
+                					<a class="udline" href="#"><b>Save Rock And Roll</b></a>
+                					<em>-</em>
+                					<span>
+                						<a class="udline" href="#">Fall Out Boy</a>
+                						<em>/</em>
+                						<a class="udline" href="#">Elton John</a>
+                					</span>
+                				</div>
+                				<div class="opt">
+                					<a href="#"><i class="fa fa-plus"></i></a>
+                					<a href="#"><i class="fa fa-plus-square-o"></i></a>
+                					<a href="#"><i class="fa fa-share-square-o"></i></a>
+                					<a href="#"><i class="fa fa-download"></i></a>
+                				</div>
+                			</div>
+                			<div class="tops">
+                				<em>215次</em>
+                				<span class="tops-bg" style="width: 23%;"></span>
+                			</div>
+                		</li>
+                		<li class="even">
+                			<div class="hd">
+                				<span class="num">10.</span>
+                				<i class="fa fa-play-circle-o"></i>
+                			</div>
+                			<div class="song">
+                				<div class="tt">
+                					<a class="udline" href="#"><b>Save Rock And Roll</b></a>
+                					<em>-</em>
+                					<span>
+                						<a class="udline" href="#">Fall Out Boy</a>
+                						<em>/</em>
+                						<a class="udline" href="#">Elton John</a>
+                					</span>
+                				</div>
+                				<div class="opt">
+                					<a href="#"><i class="fa fa-plus"></i></a>
+                					<a href="#"><i class="fa fa-plus-square-o"></i></a>
+                					<a href="#"><i class="fa fa-share-square-o"></i></a>
+                					<a href="#"><i class="fa fa-download"></i></a>
+                				</div>
+                			</div>
+                			<div class="tops">
+                				<em>215次</em>
+                				<span class="tops-bg" style="width: 12%;"></span>
+                			</div>
+                		</li>
+                	</ul>
+                	<div class="m-more"><a class="udline" href="#">查看更多></a></div>
+                </div>
+                <!--
+                	作者：767475042@qq.com
+                	时间：2017-05-05
+                	描述：用户创建的歌单
+                -->
+                <div class="m-create-list">
+					<h3><span>jFla创建的歌单（5）</span></h3>
+				</div>
+                <!--
+                	作者：767475042@qq.com
+                	时间：2017-05-05
+                	描述：加载中
+                -->
+                <div class="record-loading" style="display: none;">
+					<i data-toggle="tooltip" data-placement="top" title="Tooltip on top" class="fa fa-spinner fa-pulse"></i>
+				</div>
+				<!--
+                	作者：767475042@qq.com
+                	时间：2017-05-05
+                	描述：创建的歌单列表
+                -->
+				<ul class="hot-list m-cre list-unstyled list-inline">
+    				<li>
+    					<div class="hot-item" style="position: relative;">
+    						<a title="『粤语』无论好坏，都已经是三生有幸" class="" href="#"><img src="../style/img/cover1.jpg" alt="" /></a>
+    						<div class="bottom"></div>
+    						<div class="bottom-inner">
+								<a class="pull-right" href="#"><i class="fa fa-play-circle-o pull-left"></i></a>
+    							<i class="fa fa-headphones pull-left"></i>
+    							<span class="pull-left">10356</span>
+							</div>
+    					</div>
+    					<p class="dec"><a href="#" title="『粤语』无论好坏，都已经是三生有幸">『粤语』无论好坏，都已经是三生有幸</a></p>
+    				</li>
+    				<li>
+    					<div class="hot-item" style="position: relative;">
+    						<a title="『粤语』无论好坏，都已经是三生有幸" class="" href="#"><img src="../style/img/cover2.jpg" alt="" /></a>
+    						<div class="bottom"></div>
+    						<div class="bottom-inner">
+								<a class="pull-right" href="#"><i class="fa fa-play-circle-o pull-left"></i></a>
+    							<i class="fa fa-headphones pull-left"></i>
+    							<span class="pull-left">10356</span>
+							</div>
+    					</div>
+    					<p class="dec"><a href="#" title="『粤语』无论好坏，都已经是三生有幸">『粤语』无论好坏，都已经是三生有幸</a></p>
+    				</li>
+    				<li>
+    					<div class="hot-item" style="position: relative;">
+    						<a title="『粤语』无论好坏，都已经是三生有幸" class="" href="#"><img src="../style/img/cover3.jpg" alt="" /></a>
+    						<div class="bottom"></div>
+    						<div class="bottom-inner">
+								<a class="pull-right" href="#"><i class="fa fa-play-circle-o pull-left"></i></a>
+    							<i class="fa fa-headphones pull-left"></i>
+    							<span class="pull-left">10356</span>
+							</div>
+    					</div>
+    					<p class="dec"><a href="#" title="『粤语』无论好坏，都已经是三生有幸">『粤语』无论好坏，都已经是三生有幸</a></p>
+    				</li>
+    				<li>
+    					<div class="hot-item" style="position: relative;">
+    						<a title="『粤语』无论好坏，都已经是三生有幸" class="" href="#"><img src="../style/img/cover1.jpg" alt="" /></a>
+    						<div class="bottom"></div>
+    						<div class="bottom-inner">
+								<a class="pull-right" href="#"><i class="fa fa-play-circle-o pull-left"></i></a>
+    							<i class="fa fa-headphones pull-left"></i>
+    							<span class="pull-left">10356</span>
+							</div>
+    					</div>
+    					<p class="dec"><a href="#" title="『粤语』无论好坏，都已经是三生有幸">『粤语』无论好坏，都已经是三生有幸</a></p>
+    				</li>
+    				<li>
+    					<div class="hot-item" style="position: relative;">
+    						<a title="『粤语』无论好坏，都已经是三生有幸" class="" href="#"><img src="../style/img/cover2.jpg" alt="" /></a>
+    						<div class="bottom"></div>
+    						<div class="bottom-inner">
+								<a class="pull-right" href="#"><i class="fa fa-play-circle-o pull-left"></i></a>
+    							<i class="fa fa-headphones pull-left"></i>
+    							<span class="pull-left">10356</span>
+							</div>
+    					</div>
+    					<p class="dec"><a href="#" title="『粤语』无论好坏，都已经是三生有幸">『粤语』无论好坏，都已经是三生有幸</a></p>
+    				</li>
+    				<li>
+    					<div class="hot-item" style="position: relative;">
+    						<a title="『粤语』无论好坏，都已经是三生有幸" class="" href="#"><img src="../style/img/cover3.jpg" alt="" /></a>
+    						<div class="bottom"></div>
+    						<div class="bottom-inner">
+								<a class="pull-right" href="#"><i class="fa fa-play-circle-o pull-left"></i></a>
+    							<i class="fa fa-headphones pull-left"></i>
+    							<span class="pull-left">10356</span>
+							</div>
+    					</div>
+    					<p class="dec"><a href="#" title="『粤语』无论好坏，都已经是三生有幸">『粤语』无论好坏，都已经是三生有幸</a></p>
+    				</li>
+    			</ul>
+				
+				<!--
+                	作者：767475042@qq.com
+                	时间：2017-05-05
+                	描述：收藏的歌单
+                -->
+				<div class="m-col-list">
+					<h3><span>jFla收藏的歌单（3）</span></h3>
+				</div>
+                <!--
+                	作者：767475042@qq.com
+                	时间：2017-05-05
+                	描述：加载中
+                -->
+                <div class="record-loading">
+					<i data-toggle="tooltip" data-placement="top" title="Tooltip on top" class="fa fa-spinner fa-pulse"></i>
+				</div>
+				<!--
+                	作者：767475042@qq.com
+                	时间：2017-05-05
+                	描述：收藏的歌单列表
+                -->
+				<ul class="hot-list m-col list-unstyled list-inline">
+    				<li>
+    					<div class="hot-item" style="position: relative;">
+    						<a title="『粤语』无论好坏，都已经是三生有幸" class="" href="#"><img src="../style/img/cover1.jpg" alt="" /></a>
+    						<div class="bottom"></div>
+    						<div class="bottom-inner">
+								<a class="pull-right" href="#"><i class="fa fa-play-circle-o pull-left"></i></a>
+    							<i class="fa fa-headphones pull-left"></i>
+    							<span class="pull-left">10356</span>
+							</div>
+    					</div>
+    					<p class="dec"><a href="#" title="『粤语』无论好坏，都已经是三生有幸">『粤语』无论好坏，都已经是三生有幸</a></p>
+    				</li>
+    				<li>
+    					<div class="hot-item" style="position: relative;">
+    						<a title="『粤语』无论好坏，都已经是三生有幸" class="" href="#"><img src="../style/img/cover2.jpg" alt="" /></a>
+    						<div class="bottom"></div>
+    						<div class="bottom-inner">
+								<a class="pull-right" href="#"><i class="fa fa-play-circle-o pull-left"></i></a>
+    							<i class="fa fa-headphones pull-left"></i>
+    							<span class="pull-left">10356</span>
+							</div>
+    					</div>
+    					<p class="dec"><a href="#" title="『粤语』无论好坏，都已经是三生有幸">『粤语』无论好坏，都已经是三生有幸</a></p>
+    				</li>
+    				<li>
+    					<div class="hot-item" style="position: relative;">
+    						<a title="『粤语』无论好坏，都已经是三生有幸" class="" href="#"><img src="../style/img/cover3.jpg" alt="" /></a>
+    						<div class="bottom"></div>
+    						<div class="bottom-inner">
+								<a class="pull-right" href="#"><i class="fa fa-play-circle-o pull-left"></i></a>
+    							<i class="fa fa-headphones pull-left"></i>
+    							<span class="pull-left">10356</span>
+							</div>
+    					</div>
+    					<p class="dec"><a href="#" title="『粤语』无论好坏，都已经是三生有幸">『粤语』无论好坏，都已经是三生有幸</a></p>
+    				</li>
+    				<li>
+    					<div class="hot-item" style="position: relative;">
+    						<a title="『粤语』无论好坏，都已经是三生有幸" class="" href="#"><img src="../style/img/cover1.jpg" alt="" /></a>
+    						<div class="bottom"></div>
+    						<div class="bottom-inner">
+								<a class="pull-right" href="#"><i class="fa fa-play-circle-o pull-left"></i></a>
+    							<i class="fa fa-headphones pull-left"></i>
+    							<span class="pull-left">10356</span>
+							</div>
+    					</div>
+    					<p class="dec"><a href="#" title="『粤语』无论好坏，都已经是三生有幸">『粤语』无论好坏，都已经是三生有幸</a></p>
+    				</li>
+    				<li>
+    					<div class="hot-item" style="position: relative;">
+    						<a title="『粤语』无论好坏，都已经是三生有幸" class="" href="#"><img src="../style/img/cover2.jpg" alt="" /></a>
+    						<div class="bottom"></div>
+    						<div class="bottom-inner">
+								<a class="pull-right" href="#"><i class="fa fa-play-circle-o pull-left"></i></a>
+    							<i class="fa fa-headphones pull-left"></i>
+    							<span class="pull-left">10356</span>
+							</div>
+    					</div>
+    					<p class="dec"><a href="#" title="『粤语』无论好坏，都已经是三生有幸">『粤语』无论好坏，都已经是三生有幸</a></p>
+    				</li>
+    				<li>
+    					<div class="hot-item" style="position: relative;">
+    						<a title="『粤语』无论好坏，都已经是三生有幸" class="" href="#"><img src="../style/img/cover3.jpg" alt="" /></a>
+    						<div class="bottom"></div>
+    						<div class="bottom-inner">
+								<a class="pull-right" href="#"><i class="fa fa-play-circle-o pull-left"></i></a>
+    							<i class="fa fa-headphones pull-left"></i>
+    							<span class="pull-left">10356</span>
+							</div>
+    					</div>
+    					<p class="dec"><a href="#" title="『粤语』无论好坏，都已经是三生有幸">『粤语』无论好坏，都已经是三生有幸</a></p>
+    				</li>
+    			</ul>
+			</div>
+		</div>
+		
+		<a title="返回顶部" class="m-back" href="#"><i class="fa fa-long-arrow-up"></i></a>
+	</body>
+</html>

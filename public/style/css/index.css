@@ -137,6 +137,8 @@ body{background-color: #f5f5f5;}
 .dec a:hover{text-decoration: underline;}
 
 .hot-item .bottom{height: 23px;background: #000000;opacity: 0.54;position: absolute;bottom: 1px;display: block;width: 100%;border-top: 1px solid #525252;border-bottom: 1px solid #525252;}
+.hot-item>a{display: block;}
+.hot-item>a>img{border: 1px solid #aaa;height: 140px;width: 140px;}
 .bottom-inner{line-height: 23px;position: absolute;bottom: 0px;width: 100%; padding: 0 10px;border-top: 1px solid #000;border-bottom: 1px solid #000;}
 .bottom-inner i{font-size: 18px;}
 .bottom-inner>a,.bottom-inner>i{margin-top: 3px;}
@@ -206,3 +208,7 @@ body{background-color: #f5f5f5;}
 .n-log .remember a{float: right;font-size: 12px;color: #666;}
 .modal-dialog{margin: 300px auto;width: 528px;}
 .modal-content{box-shadow: 0 5px 15px rgba(0,0,0,.5);;}
+
+.m-back{0 0px 2px 0px #b3b3b3;line-height: 44px;text-align: center;display: block;position: fixed;left: 50%;bottom: 160px;width: 40px;height: 44px;margin-left: 500px;border: 1px solid #b3b3b3;border-radius: 3px;}
+.m-back:hover{background: #e0e0e0;}
+.m-back>i{color: #adadad;font-size: 18px;}
